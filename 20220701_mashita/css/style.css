@@ -11,6 +11,8 @@ body{
   width: 100%;
 }
 
+
+/* ヘッダーのナビ部分*/
 .header-top{
   display: flex;
   justify-content: space-between;
@@ -32,7 +34,7 @@ body{
 }
 
 
-
+/*ヘッダーのメイン画像部分 */
 .logo{
   font-family: "Indie Flower", cursive;
   color: #C71585;
@@ -50,11 +52,10 @@ body{
 .header-view {
   background: url("../img/firstview.jpg") no-repeat;
   background-size: cover;
-  width: 754px;
+  width: 65%;
   height: 500px;
   position: relative;
-  left: 30%;
-  transform: translateX(10%);
+  margin-left: auto;
   margin-bottom: 80px;
 }
 
@@ -83,8 +84,9 @@ body{
 
 
 
+/*ニュース */
 .News{
-  width: 50%;
+  width: 60%;
   margin: 80px auto;
 }
 
@@ -127,8 +129,9 @@ body{
 
 
 
+/*アバウト、事業内容 */
 .About{
-  height: 380px;
+  height: 400px;
   width: 100%;
   background-color: #eee;
 }
@@ -156,12 +159,12 @@ body{
 }
 
 .about-img{
-  width: 300px;
+  width: 40%;
   height: auto;
 }
 
 
-
+/*サービス内容*/
 .Service{
   height: 400px;
   width: 70%;
@@ -256,7 +259,7 @@ body{
 }
 
 
-
+/*ブログ*/
 .Blog{
   width: 100%;
   background-color: #eee;
@@ -289,6 +292,7 @@ body{
 
 .blog-card:hover{
   opacity: 0.6;
+  filter: brightness(110%);
 }
 
 .blog-card::after{
@@ -345,7 +349,7 @@ body{
 }
 
 
-
+/*会社概要*/
 .Company{
   width: 60%;
   height: 400px;
@@ -378,7 +382,7 @@ body{
 }
 
 
-
+/*採用情報と社内インタビュー*/
 .Info{
   width: 100%;
   height: 250px;
@@ -415,7 +419,7 @@ body{
 }
 
 
-
+/*お問い合わせのリンク*/
 .Contact{
   text-align: center;
   height: 200px;
@@ -463,7 +467,7 @@ body{
 }
 
 
-
+/*フッターの権利情報*/
 .footer{
   width: 100%;
   background-color: #eee;
