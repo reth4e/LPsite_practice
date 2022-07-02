@@ -9,6 +9,7 @@ body{
 
 .wrapper {
   width: 100%;
+  max-width: 1500px;
 }
 
 
@@ -52,8 +53,8 @@ body{
 .header-view {
   background: url("../img/firstview.jpg") no-repeat;
   background-size: cover;
-  width: 65%;
-  height: 500px;
+  width: 60%;
+  padding-top: 40%;
   position: relative;
   margin-left: auto;
   margin-bottom: 80px;
@@ -131,9 +132,9 @@ body{
 
 /*アバウト、事業内容 */
 .About{
-  height: 400px;
   width: 100%;
   background-color: #eee;
+  padding-bottom: 50px;
 }
 
 .about-heading{
@@ -193,8 +194,8 @@ body{
   background: url("../img/service__first.svg") no-repeat;
   background-size: cover;
   position: absolute;
-  top: 40px;
-  left: 150px;
+  top: 10%;
+  left: 37%;
   width: 120px;
   height: 120px;
 }
@@ -204,7 +205,7 @@ body{
 }
 
 .service-name{
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .block-1 .service-name{
@@ -251,11 +252,15 @@ body{
 }
 
 .block-2 p,.block-3 p{
-  line-height: 1.8em;
+  line-height: 1.5em;
+  display: inline-block;
+  font-size: 12px;
 }
 
 .service-block-2-txtbox,.service-block-3-txtbox{
-  transform: translate(140px,40px);
+  position: absolute;
+  top: 20%;
+  left: 40%;
 }
 
 
@@ -267,7 +272,6 @@ body{
 
 .blog-container{
   width: 70%;
-  height: 450px;
   margin: 0 auto;
   padding: 30px 0;
 }
@@ -336,9 +340,14 @@ body{
   justify-content: space-between;
 }
 
+.blog-link-wrapper{
+  text-align: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
 .blog-link{
   display: inline-block;
-  transform: translate(320px,30px);
   background-color: #fff;
   color: #b6146d;
   font-weight: bold;
@@ -346,6 +355,7 @@ body{
   padding: 15px 40px;
   border: 2px solid #b6146d;
   border-radius: 25px;
+  margin-top: 40px;
 }
 
 
